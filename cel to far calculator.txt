@@ -1,0 +1,17 @@
+//             [celsius to fahrenheit converter]
+#include <stdio.h>
+float temp(int cel);
+int main()
+{
+   float c=32;
+    printf("%.2f",temp(c));
+
+    return 0;
+}
+float temp(int cel){
+   
+   float f;
+   f=(cel*1.8)+32;
+   return f;
+}
+
